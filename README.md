@@ -12,9 +12,19 @@
     <li>bbox: a list of coordinates format [xmin, ymin, width, height]</li>
   </ul>
 </ol>
-<h2>Environment Setup</h2>
 
 <h2>Configure/modify files and directory structure </h2>
+<p>Create a yaml file:</p>
+<ul>
+  <li>#This is the path to train, val, test folder</li>
+  <li>train: ../Nine-dash_Line/images/train/ </li>
+  <li>val:  ../Nine-dash_Line/images/val/</li>
+  <li>test: ../Nine-dash_Line/images/test/</li>
+  <li>#Number of classes</li>
+  <li>nc: 2</li>
+  <li>#Class names</li>
+  <li>names: ["NoThing","NineDash"]</li>
+</ul>
 
 <h2>Training </h2>
 
