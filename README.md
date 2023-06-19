@@ -52,5 +52,5 @@
 
 <h2>Result </h2>
 <img src="results.png" alt="results">
-<img src="PR_curve" alt="precision recall curve">
+<img src="PR_curve.png" alt="precision recall curve">
 <img src="val_batch1_labels.jpg" alt="image predicted">
