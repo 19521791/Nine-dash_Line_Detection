@@ -22,7 +22,33 @@
   <li>nc: 2</li>
   <li>names: ["NoThing","NineDash"]</li>
 </ul>
-
+<p>Directory structure will look like this: </p>
+<ul>
+  <li>images</li>
+  <ul>
+    <li>train</li>
+    <li>test</li>
+    <li>val</li>
+  </ul>
+  <li>labels</li>
+   <ul>
+    <li>train</li>
+    <li>test</li>
+    <li>val</li>
+  </ul>
+</ul>
 <h2>Training </h2>
+<ul>
+  <li>--img: size of the input image </li>
+  <li>--cfg: model selection YAML file. I have chosen “s” </li>
+  <li>--hyp: YAML file that describes hyperparameter choices.I have chosen "scratch-high"</li>
+  <li>--batch: batch size </li>
+  <li>--epochs: number of epochs </li>
+  <li>--data: YAML file which was created in Configure files</li>
+  <li>--weights: weights file to apply transfer learning</li>
+  <li>--workers: Number of CPU workers</li>
+  <li>--name: Training weights would be stored in a folder named `runs/train/name`</li>
+</ul>
 
 <h2>Result </h2>
+
