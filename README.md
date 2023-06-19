@@ -16,13 +16,10 @@
 <h2>Configure/modify files and directory structure </h2>
 <p>Create a yaml file:</p>
 <ul>
-  <p>#This is the path to train, val, test folder</p>
   <li>train: ../Nine-dash_Line/images/train/ </li>
   <li>val:  ../Nine-dash_Line/images/val/</li>
   <li>test: ../Nine-dash_Line/images/test/</li>
-  <p>#Number of classes</p>
   <li>nc: 2</li>
-  <p>#Class names</p>
   <li>names: ["NoThing","NineDash"]</li>
 </ul>
 
